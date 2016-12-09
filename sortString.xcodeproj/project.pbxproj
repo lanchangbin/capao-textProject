@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09C69D761DFA7AE900FC6E50 /* NSString+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C69D751DFA7AE900FC6E50 /* NSString+Validate.m */; };
+		09C69D7A1DFA87A000FC6E50 /* NSString+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C69D791DFA87A000FC6E50 /* NSString+Validate.m */; };
 		09DDDC7F1D0E857B00ECBF59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDDC7E1D0E857B00ECBF59 /* main.m */; };
 		09DDDC821D0E857B00ECBF59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDDC811D0E857B00ECBF59 /* AppDelegate.m */; };
 		09DDDC851D0E857B00ECBF59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDDC841D0E857B00ECBF59 /* ViewController.m */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09C69D741DFA7AE900FC6E50 /* NSString+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validate.h"; sourceTree = "<group>"; };
-		09C69D751DFA7AE900FC6E50 /* NSString+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validate.m"; sourceTree = "<group>"; };
+		09C69D781DFA87A000FC6E50 /* NSString+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validate.h"; sourceTree = "<group>"; };
+		09C69D791DFA87A000FC6E50 /* NSString+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validate.m"; sourceTree = "<group>"; };
 		09DDDC7A1D0E857B00ECBF59 /* sortString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sortString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DDDC7E1D0E857B00ECBF59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09DDDC801D0E857B00ECBF59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09C69D771DFA878200FC6E50 /* thirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				09C69D781DFA87A000FC6E50 /* NSString+Validate.h */,
+				09C69D791DFA87A000FC6E50 /* NSString+Validate.m */,
+			);
+			path = thirdPart;
+			sourceTree = "<group>";
+		};
 		09DDDC711D0E857B00ECBF59 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +70,11 @@
 		09DDDC7C1D0E857B00ECBF59 /* sortString */ = {
 			isa = PBXGroup;
 			children = (
+				09C69D771DFA878200FC6E50 /* thirdPart */,
 				09DDDC801D0E857B00ECBF59 /* AppDelegate.h */,
 				09DDDC811D0E857B00ECBF59 /* AppDelegate.m */,
 				09DDDC831D0E857B00ECBF59 /* ViewController.h */,
 				09DDDC841D0E857B00ECBF59 /* ViewController.m */,
-				09C69D741DFA7AE900FC6E50 /* NSString+Validate.h */,
-				09C69D751DFA7AE900FC6E50 /* NSString+Validate.m */,
 				09DDDC861D0E857B00ECBF59 /* Main.storyboard */,
 				09DDDC891D0E857B00ECBF59 /* Assets.xcassets */,
 				09DDDC8B1D0E857B00ECBF59 /* LaunchScreen.storyboard */,
@@ -157,7 +165,7 @@
 				09DDDC851D0E857B00ECBF59 /* ViewController.m in Sources */,
 				09DDDC821D0E857B00ECBF59 /* AppDelegate.m in Sources */,
 				09DDDC7F1D0E857B00ECBF59 /* main.m in Sources */,
-				09C69D761DFA7AE900FC6E50 /* NSString+Validate.m in Sources */,
+				09C69D7A1DFA87A000FC6E50 /* NSString+Validate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

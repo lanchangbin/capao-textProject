@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author             = "capao"
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/lanchangbin/capao-textProject.git", :tag => "0.0.1" }
-  s.source_files  = "sortString/*.{h,m}"
+  s.source_files  = "sortString/thirdPart/*.{h,m}"
   s.framework  = "Foundation"
   s.requires_arc = true
 end
