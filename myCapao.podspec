@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name         = "my_pod_spec_capao"
+  s.name         = "myCapao"
   s.version      = "0.0.1"
-  s.summary      = "这是一个字符串类别的方法"
+  s.summary      = "what fuck jack man"
   s.homepage     = "https://github.com/lanchangbin/capao-textProject"
   s.license      = "MIT"
   s.author             = "capao"
